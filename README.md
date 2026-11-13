@@ -189,6 +189,14 @@ The Postman collection in `backend/postman/` covers permissions, ownership rules
 | **Postman** | Automated API tests |
 | **Google Drive** | Where the team organized and shared project files |
 
+## Limitations
+
+- **Demo authentication.** Users are identified by the `X-Usuario-Id` header. A real deployment needs server-validated login and HTTPS in front of Node-RED.
+- **Images inside documents.** Base64 photos keep the setup simple but limit each document to 1 MB; a production version should use object storage.
+- **Bills are simulated.** No payment provider is integrated; barcode lines are fictional.
+- **Portuguese interface.** The app targets Brazilian condominiums, so screens and API field names are in Portuguese.
+- **iOS only.** There is no Android or web client.
+
 ## Progress
 
 - [x] Unified app with packages, bills, reservations, incident reports, lost and found, bulletin board and contacts
@@ -199,5 +207,5 @@ The Postman collection in `backend/postman/` covers permissions, ownership rules
 
 ## Authors
 
-**[Arthur Ilha Kirsch](https://github.com/arthurzxzx)**, **[Eduardo Militz da Silva](https://github.com/eduu1345)**, **[Evelyne Jean Louis](https://github.com/jeanlouisevelyne822-prog)**, **[Manoel Rodrigues Fonseca](https://github.com/ManoloFonseca)** and **Pietro Chiapinotto Drachler**, night shift team of the HackaTruck MakerSpace.
+**Arthur Ilha Kirsch**, **Eduardo Militz da Silva**, **Evelyne Jean Louis**, **Manoel Rodrigues Fonseca** and **Pietro Chiapinotto Drachler**, night shift team of the HackaTruck MakerSpace.
 Built as the final project of the HackaTruck MakerSpace (Oct 13 – Nov 13, 2026).
