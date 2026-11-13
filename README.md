@@ -199,10 +199,5 @@ The Postman collection in `backend/postman/` covers permissions, ownership rules
 
 ## Authors
 
-Built by the night shift team of the HackaTruck MakerSpace, 2026:
-
-- **Arthur Ilha Kirsch**
-- **Eduardo Militz da Silva**
-- **Evelyne Jean Louis**
-- **Manoel Rodrigues Fonseca**
-- **Pietro Chiapinotto Drachler**
+**Arthur Ilha Kirsch**, **Eduardo Militz da Silva**, **Evelyne Jean Louis**, **Manoel Rodrigues Fonseca** and **Pietro Chiapinotto Drachler**, night shift team of the HackaTruck MakerSpace.
+Built as the final project of the HackaTruck MakerSpace (2026).
