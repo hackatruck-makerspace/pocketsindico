@@ -189,18 +189,6 @@ The Postman collection in `backend/postman/` covers permissions, ownership rules
 | **Postman** | Automated API tests |
 | **Google Drive** | Where the team organized and shared project files |
 
-## License
-
-Released under the [MIT License](LICENSE).
-
-## Limitations
-
-- **Demo authentication.** Users are identified by the `X-Usuario-Id` header. A real deployment needs server-validated login and HTTPS in front of Node-RED.
-- **Images inside documents.** Base64 photos keep the setup simple but limit each document to 1 MB; a production version should use object storage.
-- **Bills are simulated.** No payment provider is integrated; barcode lines are fictional.
-- **Portuguese interface.** The app targets Brazilian condominiums, so screens and API field names are in Portuguese.
-- **iOS only.** There is no Android or web client.
-
 ## Progress
 
 - [x] Unified app with packages, bills, reservations, incident reports, lost and found, bulletin board and contacts
@@ -213,7 +201,12 @@ Released under the [MIT License](LICENSE).
 - [ ] Payment integration for bills
 - [ ] App Store release
 
-## Author
+## Authors
 
-**Pietro Chiapinotto Drachler**. Engineering student at UFSM (Brazil).
-Built with the night shift team of the HackaTruck MakerSpace, 2026.
+Built by the night shift team of the HackaTruck MakerSpace, 2026:
+
+- **Arthur Ilha Kirsch**
+- **Eduardo Militz da Silva**
+- **Evelyne Jean Louis**
+- **Manoel Rodrigues Fonseca**
+- **Pietro Chiapinotto Drachler**
