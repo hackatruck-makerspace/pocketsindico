@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0661B03A25E47F90B080B575 /* AlertaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA46CC69DFC405226CE4E63 /* AlertaModels.swift */; };
+		0D1FD57A0522682D05D5B858 /* AlertaConvivenciaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819AFA313A827E23B7F97F3 /* AlertaConvivenciaView.swift */; };
+		0F36B082B722CBDB12651AC1 /* BoletoDetalheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59888A0A248B764F4A6F32 /* BoletoDetalheView.swift */; };
+		12154CB1C7C38DF55E3DBDC6 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D02F6BAE48F8EEC876618EC /* NotificationService.swift */; };
+		146889D33F1D15226BFFCF4E /* ContatoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554694C8F770D045443966C9 /* ContatoModels.swift */; };
+		14A8FC236ED854F416332F65 /* CondominioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEABD001D85AB1735465DEA /* CondominioApp.swift */; };
+		18736121F0AD5F11140D693D /* AlertaPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97CE0ACE168ADB2B827AB38 /* AlertaPersistence.swift */; };
+		1BD344C22DF9CB71B6E9BB1D /* ConfiguracoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C918BDA978B6A0E8E2206D5 /* ConfiguracoesView.swift */; };
+		24B7B720EC2971D03C77149E /* FuncionalidadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD4D235052FDDBD0A7FC46 /* FuncionalidadeView.swift */; };
+		261F0698A6C896E4C32DFC4F /* ReservaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBD3DC30437556323A32248 /* ReservaModels.swift */; };
+		303625FA31656B79DE979F82 /* AppSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7382AFB4540862839EBCE4D6 /* AppSession.swift */; };
+		356849640F5E3EED91677EE5 /* AnunciosMoradoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA0BB1AB5D5BF78EFA8115 /* AnunciosMoradoresView.swift */; };
+		35D38A0D63CAF5B30A4CDA49 /* ContatosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D917925787CF44465A3778 /* ContatosView.swift */; };
+		3F2F3650391F19B675AC1A44 /* AchadoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34448CE4747811ACA0C063A4 /* AchadoModels.swift */; };
+		4EAFBF463DF5F34E92703F9C /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7CDDA0DD2FF6A1FC92CF4D /* MainTabView.swift */; };
+		5200FFCC37BAE4D88855924D /* EncomendasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22A09FD647FC8DA476A1372 /* EncomendasView.swift */; };
+		5416C26036CA793B238EA696 /* MarcaComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5532ACBB22252D251AE1B45 /* MarcaComponents.swift */; };
+		5FEBA4C215154A4FA7039F71 /* AchadoDetalheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337EE28F69006C2D535B9DD9 /* AchadoDetalheView.swift */; };
+		61C8789FA7F88D9202376BC9 /* LigarSindicoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E3D793218FF1262B0D9E0 /* LigarSindicoButton.swift */; };
+		63993CF8C4D34453DB7BE05B /* AchadoFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3A476FC65AE72D2F897624 /* AchadoFormView.swift */; };
+		7D83421AE6E6557EB8D9C029 /* MuralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585B5F30CD80E081785CE677 /* MuralView.swift */; };
+		7FA7C5F4E76E1D4AA9A20A8B /* FotoComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18201872C5A5952B59FD8CA6 /* FotoComponents.swift */; };
+		7FDBD68D3CC8D7615528EB43 /* MinhasOcorrenciasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E50FBD19A9A01E6CBAC36 /* MinhasOcorrenciasView.swift */; };
+		89530F99F1A965331A29E86A /* OcorrenciaDetalheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E474D9F9E6C5F3721846CAD /* OcorrenciaDetalheView.swift */; };
+		8AA77E36FB4101AC95B14D5F /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041484D6A2CC15EB327AB003 /* Components.swift */; };
+		8BF6B904F676A6D3361BEAC0 /* OcorrenciasSindicoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C006285A4E87C6615A46774 /* OcorrenciasSindicoView.swift */; };
+		8F2A7A24550589907AA356E3 /* OcorrenciasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66218CCA617D50E17B449F99 /* OcorrenciasView.swift */; };
+		9347418F0E7640BF9ECA0305 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51971347401DDE8C97781800 /* HomeView.swift */; };
+		A1E2B68890AA924BD673558F /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5243A38FB834DF0C24BBD5C /* DemoData.swift */; };
+		A6503222BB45DC5FC01D5A4A /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD6D27E83EEF399CB659ADF /* PerfilView.swift */; };
+		A8774ADD5EF169D980CFAF43 /* BoletoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D749A71962C2822E6EDD0 /* BoletoModels.swift */; };
+		A999C8AB2BFFD933F5A0207B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9282DEE09BA914CFAB53 /* Assets.xcassets */; };
+		AE0936EF4CF220A13D7A3120 /* EncomendaDetalheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DDCBDA16225560E677515B /* EncomendaDetalheView.swift */; };
+		AE3E87A3FCEED26DABDE6EE8 /* EncomendaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA992849A70C0E89FD1E9F93 /* EncomendaModels.swift */; };
+		B282807F6EC756B4BE221311 /* ReservasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702DCDF054E31FA8607E61A6 /* ReservasView.swift */; };
+		B5D62DF92F8FEC6EB8EA5D96 /* BoletosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE79DDB32CA951FC4F6940 /* BoletosView.swift */; };
+		B913701415F56A58374619A1 /* AchadosPerdidosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F14E9442E813EC46C135AF /* AchadosPerdidosView.swift */; };
+		B9B227A5968086BBC8B292E0 /* OcorrenciaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17EF061253A7FD53B04EF7E /* OcorrenciaModels.swift */; };
+		D5A0FB07ECF49EDC961408A8 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1574353049076BE2641B4C29 /* APIService.swift */; };
+		DCFC7295AE70FF08BE692138 /* EncomendaFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4032825D5DF1B9647A4C68B /* EncomendaFormView.swift */; };
+		E3E7B471F7EEE42BC9D9E20B /* AlertaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B92694838C4C3CD4C077C74 /* AlertaViewModel.swift */; };
+		E6715ABEC06988082E7933B0 /* ContatosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7149B84728FA8E5FFC738528 /* ContatosViewModel.swift */; };
+		E8B7F3E4B15422886BA23666 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73EEB7DE60B177D495BEB45 /* Models.swift */; };
+		EF21791831A92A76DFF8F715 /* Identidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360FE6E8BEAF1AADBC531EE1 /* Identidade.swift */; };
+		FC92D6B663AD8CFFBD7ABAC5 /* NovaOcorrenciaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6DD847533E735D10892EA5 /* NovaOcorrenciaView.swift */; };
+		FFC9601549F2A49047C1E50E /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D605BD681C35D4E0D92B1B5D /* AppTheme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041484D6A2CC15EB327AB003 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		0887341F0182837B963EB287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B92694838C4C3CD4C077C74 /* AlertaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertaViewModel.swift; sourceTree = "<group>"; };
+		1574353049076BE2641B4C29 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		18201872C5A5952B59FD8CA6 /* FotoComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoComponents.swift; sourceTree = "<group>"; };
+		1D59888A0A248B764F4A6F32 /* BoletoDetalheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoletoDetalheView.swift; sourceTree = "<group>"; };
+		228E50FBD19A9A01E6CBAC36 /* MinhasOcorrenciasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhasOcorrenciasView.swift; sourceTree = "<group>"; };
+		2C918BDA978B6A0E8E2206D5 /* ConfiguracoesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguracoesView.swift; sourceTree = "<group>"; };
+		337EE28F69006C2D535B9DD9 /* AchadoDetalheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchadoDetalheView.swift; sourceTree = "<group>"; };
+		34448CE4747811ACA0C063A4 /* AchadoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchadoModels.swift; sourceTree = "<group>"; };
+		360FE6E8BEAF1AADBC531EE1 /* Identidade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identidade.swift; sourceTree = "<group>"; };
+		39F14E9442E813EC46C135AF /* AchadosPerdidosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchadosPerdidosView.swift; sourceTree = "<group>"; };
+		3BA46CC69DFC405226CE4E63 /* AlertaModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertaModels.swift; sourceTree = "<group>"; };
+		3E474D9F9E6C5F3721846CAD /* OcorrenciaDetalheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcorrenciaDetalheView.swift; sourceTree = "<group>"; };
+		40DC192530A27D2C00447F5A /* CondominioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CondominioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0E3D793218FF1262B0D9E0 /* LigarSindicoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigarSindicoButton.swift; sourceTree = "<group>"; };
+		51971347401DDE8C97781800 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		554694C8F770D045443966C9 /* ContatoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatoModels.swift; sourceTree = "<group>"; };
+		585B5F30CD80E081785CE677 /* MuralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuralView.swift; sourceTree = "<group>"; };
+		5C006285A4E87C6615A46774 /* OcorrenciasSindicoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcorrenciasSindicoView.swift; sourceTree = "<group>"; };
+		66218CCA617D50E17B449F99 /* OcorrenciasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcorrenciasView.swift; sourceTree = "<group>"; };
+		6FD6D27E83EEF399CB659ADF /* PerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
+		702DCDF054E31FA8607E61A6 /* ReservasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservasView.swift; sourceTree = "<group>"; };
+		7149B84728FA8E5FFC738528 /* ContatosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosViewModel.swift; sourceTree = "<group>"; };
+		7382AFB4540862839EBCE4D6 /* AppSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSession.swift; sourceTree = "<group>"; };
+		7819AFA313A827E23B7F97F3 /* AlertaConvivenciaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertaConvivenciaView.swift; sourceTree = "<group>"; };
+		7B3A476FC65AE72D2F897624 /* AchadoFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchadoFormView.swift; sourceTree = "<group>"; };
+		7BEABD001D85AB1735465DEA /* CondominioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondominioApp.swift; sourceTree = "<group>"; };
+		8A7CDDA0DD2FF6A1FC92CF4D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		9C6DD847533E735D10892EA5 /* NovaOcorrenciaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaOcorrenciaView.swift; sourceTree = "<group>"; };
+		9D02F6BAE48F8EEC876618EC /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		A22A09FD647FC8DA476A1372 /* EncomendasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncomendasView.swift; sourceTree = "<group>"; };
+		ABBD4D235052FDDBD0A7FC46 /* FuncionalidadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncionalidadeView.swift; sourceTree = "<group>"; };
+		C97CE0ACE168ADB2B827AB38 /* AlertaPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertaPersistence.swift; sourceTree = "<group>"; };
+		D605BD681C35D4E0D92B1B5D /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		D73EEB7DE60B177D495BEB45 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DA992849A70C0E89FD1E9F93 /* EncomendaModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncomendaModels.swift; sourceTree = "<group>"; };
+		E17EF061253A7FD53B04EF7E /* OcorrenciaModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcorrenciaModels.swift; sourceTree = "<group>"; };
+		E3CA0BB1AB5D5BF78EFA8115 /* AnunciosMoradoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnunciosMoradoresView.swift; sourceTree = "<group>"; };
+		E5243A38FB834DF0C24BBD5C /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		E5532ACBB22252D251AE1B45 /* MarcaComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcaComponents.swift; sourceTree = "<group>"; };
+		E7D917925787CF44465A3778 /* ContatosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosView.swift; sourceTree = "<group>"; };
+		EAAE79DDB32CA951FC4F6940 /* BoletosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoletosView.swift; sourceTree = "<group>"; };
+		EF5A9282DEE09BA914CFAB53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFBD3DC30437556323A32248 /* ReservaModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservaModels.swift; sourceTree = "<group>"; };
+		F3DDCBDA16225560E677515B /* EncomendaDetalheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncomendaDetalheView.swift; sourceTree = "<group>"; };
+		F4032825D5DF1B9647A4C68B /* EncomendaFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncomendaFormView.swift; sourceTree = "<group>"; };
+		F60D749A71962C2822E6EDD0 /* BoletoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoletoModels.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40DC192230A27D2C00447F5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001CABD55A723E743385EF37 /* Encomendas */ = {
+			isa = PBXGroup;
+			children = (
+				F3DDCBDA16225560E677515B /* EncomendaDetalheView.swift */,
+				F4032825D5DF1B9647A4C68B /* EncomendaFormView.swift */,
+				A22A09FD647FC8DA476A1372 /* EncomendasView.swift */,
+			);
+			path = Encomendas;
+			sourceTree = "<group>";
+		};
+		068F80C7519D0528FB08E821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40DC192530A27D2C00447F5A /* CondominioApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		407A37D5E6C64AF341C60395 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D605BD681C35D4E0D92B1B5D /* AppTheme.swift */,
+				360FE6E8BEAF1AADBC531EE1 /* Identidade.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		40DC191C30A27D2C00447F5A = {
+			isa = PBXGroup;
+			children = (
+				7D3A55BE3C8D670414487650 /* CondominioApp */,
+				068F80C7519D0528FB08E821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43EB0C3E6931AFE01F00A423 /* Alertas */ = {
+			isa = PBXGroup;
+			children = (
+				7819AFA313A827E23B7F97F3 /* AlertaConvivenciaView.swift */,
+			);
+			path = Alertas;
+			sourceTree = "<group>";
+		};
+		45BDE429FBA4C38B5C7DBA0B /* Perfil */ = {
+			isa = PBXGroup;
+			children = (
+				6FD6D27E83EEF399CB659ADF /* PerfilView.swift */,
+			);
+			path = Perfil;
+			sourceTree = "<group>";
+		};
+		615297A6ABF0BEC73D76505F /* Boletos */ = {
+			isa = PBXGroup;
+			children = (
+				1D59888A0A248B764F4A6F32 /* BoletoDetalheView.swift */,
+				EAAE79DDB32CA951FC4F6940 /* BoletosView.swift */,
+			);
+			path = Boletos;
+			sourceTree = "<group>";
+		};
+		66A5FC22A5761EDE983BFC9B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7382AFB4540862839EBCE4D6 /* AppSession.swift */,
+				7BEABD001D85AB1735465DEA /* CondominioApp.swift */,
+				8A7CDDA0DD2FF6A1FC92CF4D /* MainTabView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		701A7DD59B3237FFC0A7058D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				34448CE4747811ACA0C063A4 /* AchadoModels.swift */,
+				3BA46CC69DFC405226CE4E63 /* AlertaModels.swift */,
+				F60D749A71962C2822E6EDD0 /* BoletoModels.swift */,
+				554694C8F770D045443966C9 /* ContatoModels.swift */,
+				DA992849A70C0E89FD1E9F93 /* EncomendaModels.swift */,
+				D73EEB7DE60B177D495BEB45 /* Models.swift */,
+				E17EF061253A7FD53B04EF7E /* OcorrenciaModels.swift */,
+				EFBD3DC30437556323A32248 /* ReservaModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7D3A55BE3C8D670414487650 /* CondominioApp */ = {
+			isa = PBXGroup;
+			children = (
+				66A5FC22A5761EDE983BFC9B /* App */,
+				BA0D7B0662D4B3C93C5702E9 /* Components */,
+				701A7DD59B3237FFC0A7058D /* Models */,
+				D73D8BD76E2EBDE58D7E0BBD /* Services */,
+				407A37D5E6C64AF341C60395 /* Utilities */,
+				B44FBF405DF9B5C3CA896582 /* Views */,
+				EF5A9282DEE09BA914CFAB53 /* Assets.xcassets */,
+				0887341F0182837B963EB287 /* Info.plist */,
+			);
+			path = CondominioApp;
+			sourceTree = "<group>";
+		};
+		87AAAEC848C88CEFFDC787EA /* Reservas */ = {
+			isa = PBXGroup;
+			children = (
+				702DCDF054E31FA8607E61A6 /* ReservasView.swift */,
+			);
+			path = Reservas;
+			sourceTree = "<group>";
+		};
+		96BB784CBC3F3DA67C764DB6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				51971347401DDE8C97781800 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		99CED8CBDEAE320D4718D0E2 /* Contatos */ = {
+			isa = PBXGroup;
+			children = (
+				E7D917925787CF44465A3778 /* ContatosView.swift */,
+				7149B84728FA8E5FFC738528 /* ContatosViewModel.swift */,
+				4C0E3D793218FF1262B0D9E0 /* LigarSindicoButton.swift */,
+			);
+			path = Contatos;
+			sourceTree = "<group>";
+		};
+		B250234D7F4CEFA3B9CC3C57 /* Ocorrencias */ = {
+			isa = PBXGroup;
+			children = (
+				228E50FBD19A9A01E6CBAC36 /* MinhasOcorrenciasView.swift */,
+				9C6DD847533E735D10892EA5 /* NovaOcorrenciaView.swift */,
+				3E474D9F9E6C5F3721846CAD /* OcorrenciaDetalheView.swift */,
+				5C006285A4E87C6615A46774 /* OcorrenciasSindicoView.swift */,
+				66218CCA617D50E17B449F99 /* OcorrenciasView.swift */,
+			);
+			path = Ocorrencias;
+			sourceTree = "<group>";
+		};
+		B44FBF405DF9B5C3CA896582 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9B6D77D0F27719E54070EB8 /* Configuracoes */,
+				E0321CAB2F4CFF6AB30B94BC /* Funcionalidades */,
+				96BB784CBC3F3DA67C764DB6 /* Home */,
+				EDDCEB81E789C586ED6CA043 /* Mural */,
+				45BDE429FBA4C38B5C7DBA0B /* Perfil */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA0D7B0662D4B3C93C5702E9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				041484D6A2CC15EB327AB003 /* Components.swift */,
+				18201872C5A5952B59FD8CA6 /* FotoComponents.swift */,
+				E5532ACBB22252D251AE1B45 /* MarcaComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D73D8BD76E2EBDE58D7E0BBD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C97CE0ACE168ADB2B827AB38 /* AlertaPersistence.swift */,
+				0B92694838C4C3CD4C077C74 /* AlertaViewModel.swift */,
+				1574353049076BE2641B4C29 /* APIService.swift */,
+				E5243A38FB834DF0C24BBD5C /* DemoData.swift */,
+				9D02F6BAE48F8EEC876618EC /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D9B6D77D0F27719E54070EB8 /* Configuracoes */ = {
+			isa = PBXGroup;
+			children = (
+				2C918BDA978B6A0E8E2206D5 /* ConfiguracoesView.swift */,
+			);
+			path = Configuracoes;
+			sourceTree = "<group>";
+		};
+		E0321CAB2F4CFF6AB30B94BC /* Funcionalidades */ = {
+			isa = PBXGroup;
+			children = (
+				E29F0FEF352F5A0799072C94 /* AchadosPerdidos */,
+				43EB0C3E6931AFE01F00A423 /* Alertas */,
+				615297A6ABF0BEC73D76505F /* Boletos */,
+				99CED8CBDEAE320D4718D0E2 /* Contatos */,
+				001CABD55A723E743385EF37 /* Encomendas */,
+				B250234D7F4CEFA3B9CC3C57 /* Ocorrencias */,
+				87AAAEC848C88CEFFDC787EA /* Reservas */,
+				ABBD4D235052FDDBD0A7FC46 /* FuncionalidadeView.swift */,
+			);
+			path = Funcionalidades;
+			sourceTree = "<group>";
+		};
+		E29F0FEF352F5A0799072C94 /* AchadosPerdidos */ = {
+			isa = PBXGroup;
+			children = (
+				337EE28F69006C2D535B9DD9 /* AchadoDetalheView.swift */,
+				7B3A476FC65AE72D2F897624 /* AchadoFormView.swift */,
+				39F14E9442E813EC46C135AF /* AchadosPerdidosView.swift */,
+			);
+			path = AchadosPerdidos;
+			sourceTree = "<group>";
+		};
+		EDDCEB81E789C586ED6CA043 /* Mural */ = {
+			isa = PBXGroup;
+			children = (
+				E3CA0BB1AB5D5BF78EFA8115 /* AnunciosMoradoresView.swift */,
+				585B5F30CD80E081785CE677 /* MuralView.swift */,
+			);
+			path = Mural;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40DC192430A27D2C00447F5A /* CondominioApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DC193030A27D2D00447F5A /* Build configuration list for PBXNativeTarget "CondominioApp" */;
+			buildPhases = (
+				40DC192130A27D2C00447F5A /* Sources */,
+				40DC192230A27D2C00447F5A /* Frameworks */,
+				40DC192330A27D2C00447F5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CondominioApp;
+			packageProductDependencies = (
+			);
+			productName = CondominioApp;
+			productReference = 40DC192530A27D2C00447F5A /* CondominioApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40DC191D30A27D2C00447F5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					40DC192430A27D2C00447F5A = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 40DC192030A27D2C00447F5A /* Build configuration list for PBXProject "CondominioApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40DC191C30A27D2C00447F5A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 068F80C7519D0528FB08E821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40DC192430A27D2C00447F5A /* CondominioApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40DC192330A27D2C00447F5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A999C8AB2BFFD933F5A0207B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40DC192130A27D2C00447F5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303625FA31656B79DE979F82 /* AppSession.swift in Sources */,
+				14A8FC236ED854F416332F65 /* CondominioApp.swift in Sources */,
+				4EAFBF463DF5F34E92703F9C /* MainTabView.swift in Sources */,
+				8AA77E36FB4101AC95B14D5F /* Components.swift in Sources */,
+				7FA7C5F4E76E1D4AA9A20A8B /* FotoComponents.swift in Sources */,
+				5416C26036CA793B238EA696 /* MarcaComponents.swift in Sources */,
+				3F2F3650391F19B675AC1A44 /* AchadoModels.swift in Sources */,
+				0661B03A25E47F90B080B575 /* AlertaModels.swift in Sources */,
+				A8774ADD5EF169D980CFAF43 /* BoletoModels.swift in Sources */,
+				146889D33F1D15226BFFCF4E /* ContatoModels.swift in Sources */,
+				AE3E87A3FCEED26DABDE6EE8 /* EncomendaModels.swift in Sources */,
+				E8B7F3E4B15422886BA23666 /* Models.swift in Sources */,
+				B9B227A5968086BBC8B292E0 /* OcorrenciaModels.swift in Sources */,
+				261F0698A6C896E4C32DFC4F /* ReservaModels.swift in Sources */,
+				18736121F0AD5F11140D693D /* AlertaPersistence.swift in Sources */,
+				E3E7B471F7EEE42BC9D9E20B /* AlertaViewModel.swift in Sources */,
+				D5A0FB07ECF49EDC961408A8 /* APIService.swift in Sources */,
+				A1E2B68890AA924BD673558F /* DemoData.swift in Sources */,
+				12154CB1C7C38DF55E3DBDC6 /* NotificationService.swift in Sources */,
+				FFC9601549F2A49047C1E50E /* AppTheme.swift in Sources */,
+				EF21791831A92A76DFF8F715 /* Identidade.swift in Sources */,
+				1BD344C22DF9CB71B6E9BB1D /* ConfiguracoesView.swift in Sources */,
+				5FEBA4C215154A4FA7039F71 /* AchadoDetalheView.swift in Sources */,
+				63993CF8C4D34453DB7BE05B /* AchadoFormView.swift in Sources */,
+				B913701415F56A58374619A1 /* AchadosPerdidosView.swift in Sources */,
+				0D1FD57A0522682D05D5B858 /* AlertaConvivenciaView.swift in Sources */,
+				0F36B082B722CBDB12651AC1 /* BoletoDetalheView.swift in Sources */,
+				B5D62DF92F8FEC6EB8EA5D96 /* BoletosView.swift in Sources */,
+				35D38A0D63CAF5B30A4CDA49 /* ContatosView.swift in Sources */,
+				E6715ABEC06988082E7933B0 /* ContatosViewModel.swift in Sources */,
+				61C8789FA7F88D9202376BC9 /* LigarSindicoButton.swift in Sources */,
+				AE0936EF4CF220A13D7A3120 /* EncomendaDetalheView.swift in Sources */,
+				DCFC7295AE70FF08BE692138 /* EncomendaFormView.swift in Sources */,
+				5200FFCC37BAE4D88855924D /* EncomendasView.swift in Sources */,
+				7FDBD68D3CC8D7615528EB43 /* MinhasOcorrenciasView.swift in Sources */,
+				FC92D6B663AD8CFFBD7ABAC5 /* NovaOcorrenciaView.swift in Sources */,
+				89530F99F1A965331A29E86A /* OcorrenciaDetalheView.swift in Sources */,
+				8BF6B904F676A6D3361BEAC0 /* OcorrenciasSindicoView.swift in Sources */,
+				8F2A7A24550589907AA356E3 /* OcorrenciasView.swift in Sources */,
+				B282807F6EC756B4BE221311 /* ReservasView.swift in Sources */,
+				24B7B720EC2971D03C77149E /* FuncionalidadeView.swift in Sources */,
+				9347418F0E7640BF9ECA0305 /* HomeView.swift in Sources */,
+				356849640F5E3EED91677EE5 /* AnunciosMoradoresView.swift in Sources */,
+				7D83421AE6E6557EB8D9C029 /* MuralView.swift in Sources */,
+				A6503222BB45DC5FC01D5A4A /* PerfilView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		40DC192E30A27D2D00447F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40DC192F30A27D2D00447F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40DC193130A27D2D00447F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CondominioApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eduardo.CondominioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40DC193230A27D2D00447F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CondominioApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eduardo.CondominioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40DC192030A27D2C00447F5A /* Build configuration list for PBXProject "CondominioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DC192E30A27D2D00447F5A /* Debug */,
+				40DC192F30A27D2D00447F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DC193030A27D2D00447F5A /* Build configuration list for PBXNativeTarget "CondominioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DC193130A27D2D00447F5A /* Debug */,
+				40DC193230A27D2D00447F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40DC191D30A27D2C00447F5A /* Project object */;
+}

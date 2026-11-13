@@ -1,0 +1,12 @@
+{
+  "index": {
+    "fields": [
+      "tipo",
+      "anuncio_id",
+      "criado_em"
+    ]
+  },
+  "name": "idx_comentarios",
+  "ddoc": "idx_comentarios",
+  "type": "json"
+}

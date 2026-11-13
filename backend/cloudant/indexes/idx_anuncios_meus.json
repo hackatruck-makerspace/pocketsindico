@@ -1,0 +1,14 @@
+{
+  "index": {
+    "fields": [
+      "tipo",
+      "condominio_id",
+      "anunciante_id",
+      "status",
+      "criado_em"
+    ]
+  },
+  "name": "idx_anuncios_meus",
+  "ddoc": "idx_anuncios_meus",
+  "type": "json"
+}

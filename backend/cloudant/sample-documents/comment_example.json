@@ -1,0 +1,9 @@
+{
+  "_id": "favanuncio_DEMO-002_anuncio_001",
+  "tipo": "favorito_anuncio",
+  "condominio_id": "condominio_001",
+  "criado_em": "2026-11-09T09:00:00Z",
+  "atualizado_em": "2026-11-09T09:00:00Z",
+  "usuario_id": "DEMO-002",
+  "anuncio_id": "anuncio_001"
+}

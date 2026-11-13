@@ -1,0 +1,9 @@
+services:
+  node-red:
+    image: nodered/node-red:latest
+    ports:
+      - "${NODE_RED_PORT:-1880}:1880"
+    env_file: .env
+    volumes:
+      - ./node-red/data:/data
+      - ./node-red/flows:/flows:ro

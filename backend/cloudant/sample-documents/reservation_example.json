@@ -1,0 +1,16 @@
+{
+  "_id": "reserva_churrasqueira_2026-11-21_18",
+  "tipo": "reserva",
+  "condominio_id": "condominio_001",
+  "espaco_id": "churrasqueira",
+  "espaco_nome": "Churrasqueira",
+  "data": "2026-11-21",
+  "horario": "18:00",
+  "status": "confirmada",
+  "morador_id": "DEMO-001",
+  "morador_nome": "João Silva",
+  "bloco": "A",
+  "apartamento": "302",
+  "criado_em": "2026-11-11T12:00:00Z",
+  "atualizado_em": "2026-11-11T12:00:00Z"
+}

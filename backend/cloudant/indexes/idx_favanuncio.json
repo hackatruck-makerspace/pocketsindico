@@ -1,0 +1,11 @@
+{
+  "index": {
+    "fields": [
+      "tipo",
+      "anuncio_id"
+    ]
+  },
+  "name": "idx_favanuncio",
+  "ddoc": "idx_favanuncio",
+  "type": "json"
+}

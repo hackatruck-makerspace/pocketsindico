@@ -1,0 +1,11 @@
+{
+  "index": {
+    "fields": [
+      "tipo",
+      "condominio_id"
+    ]
+  },
+  "name": "idx_tipo",
+  "ddoc": "idx_tipo",
+  "type": "json"
+}

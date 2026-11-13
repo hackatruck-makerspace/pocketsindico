@@ -1,0 +1,12 @@
+{
+  "index": {
+    "fields": [
+      "tipo",
+      "espaco_id",
+      "data"
+    ]
+  },
+  "name": "idx_reservas",
+  "ddoc": "idx_reservas",
+  "type": "json"
+}

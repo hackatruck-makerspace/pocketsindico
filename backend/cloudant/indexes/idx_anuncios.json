@@ -1,0 +1,12 @@
+{
+  "index": {
+    "fields": [
+      "tipo",
+      "status",
+      "criado_em"
+    ]
+  },
+  "name": "idx_anuncios",
+  "ddoc": "idx_anuncios",
+  "type": "json"
+}

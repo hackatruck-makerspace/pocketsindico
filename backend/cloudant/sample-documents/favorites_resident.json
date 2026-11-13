@@ -1,0 +1,18 @@
+{
+  "_id": "favoritos_DEMO-001",
+  "tipo": "favoritos",
+  "condominio_id": "condominio_001",
+  "criado_em": "2026-11-09T09:00:00Z",
+  "atualizado_em": "2026-11-09T09:00:00Z",
+  "usuario_id": "DEMO-001",
+  "funcionalidades": [
+    "encomendas",
+    "boletos",
+    "quiosque"
+  ],
+  "ordem": [
+    "encomendas",
+    "quiosque",
+    "boletos"
+  ]
+}

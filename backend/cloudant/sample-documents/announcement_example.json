@@ -1,0 +1,14 @@
+{
+  "_id": "comunicado_001",
+  "tipo": "comunicado",
+  "condominio_id": "condominio_001",
+  "criado_em": "2026-11-09T09:00:00.000Z",
+  "atualizado_em": "2026-11-09T09:00:00.000Z",
+  "titulo": "Manutenção do elevador",
+  "descricao": "O elevador do bloco B ficará indisponível amanhã, das 8h às 12h.",
+  "categoria": "manutencao",
+  "autor_id": "DEMO-003",
+  "autor_nome": "Administrador",
+  "status": "publicado",
+  "data_publicacao": "2026-11-09T09:00:00.000Z"
+}

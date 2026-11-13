@@ -1,0 +1,11 @@
+{
+  "index": {
+    "fields": [
+      "tipo",
+      "perfil"
+    ]
+  },
+  "name": "idx_usuarios",
+  "ddoc": "idx_usuarios",
+  "type": "json"
+}

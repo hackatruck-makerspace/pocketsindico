@@ -1,0 +1,12 @@
+{
+  "index": {
+    "fields": [
+      "tipo",
+      "status",
+      "morador_id"
+    ]
+  },
+  "name": "idx_encomendas",
+  "ddoc": "idx_encomendas",
+  "type": "json"
+}

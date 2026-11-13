@@ -1,0 +1,12 @@
+{
+  "index": {
+    "fields": [
+      "tipo",
+      "status",
+      "data_publicacao"
+    ]
+  },
+  "name": "idx_comunicados",
+  "ddoc": "idx_comunicados",
+  "type": "json"
+}

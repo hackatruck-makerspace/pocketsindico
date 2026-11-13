@@ -1,0 +1,17 @@
+{
+  "_id": "encomenda_001",
+  "tipo": "encomenda",
+  "condominio_id": "condominio_001",
+  "criado_em": "2026-11-09T09:00:00Z",
+  "atualizado_em": "2026-11-09T09:00:00Z",
+  "morador_id": "DEMO-001",
+  "morador_nome": "João Silva",
+  "bloco": "A",
+  "apartamento": "302",
+  "transportadora": "Correios",
+  "descricao": "Pacote pequeno",
+  "status": "aguardando_retirada",
+  "recebido_por": "DEMO-002",
+  "data_recebimento": "2026-11-09T14:30:00Z",
+  "data_entrega": null
+}

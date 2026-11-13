@@ -1,0 +1,12 @@
+{
+  "_id": "usuario_DEMO-002",
+  "tipo": "usuario",
+  "condominio_id": "condominio_001",
+  "criado_em": "2026-11-09T09:00:00Z",
+  "atualizado_em": "2026-11-09T09:00:00Z",
+  "nome": "Carlos Souza",
+  "perfil": "guarda",
+  "ativo": true,
+  "demo": true,
+  "pode_anunciar": false
+}

@@ -1,0 +1,16 @@
+{
+  "_id": "anuncio_001",
+  "tipo": "anuncio",
+  "condominio_id": "condominio_001",
+  "criado_em": "2026-11-08T10:00:00Z",
+  "atualizado_em": "2026-11-09T09:00:00Z",
+  "titulo": "Bolo caseiro de cenoura",
+  "descricao": "Encomendas até quinta. Entrego no apartamento.",
+  "categoria": "comida",
+  "preco": "R$ 35,00",
+  "anunciante_id": "DEMO-001",
+  "anunciante_nome": "João Silva",
+  "bloco": "A",
+  "apartamento": "302",
+  "status": "ativo"
+}
