@@ -90,16 +90,6 @@ Every route follows the same pattern: **HTTP IN → identify user → authorize 
 | **Photos as Base64 inside the document**, compressed by the app | No extra storage service; the server rejects documents over 1 MB with **413** |
 | **Idempotent setup tab** in Node-RED | Creates the database, indexes and demo data on start without overwriting anything |
 
-## Screenshots
-
-<p align="center">
-  <img src="docs/img/screen-home.png" alt="Home screen" width="240">
-  <img src="docs/img/screen-board.png" alt="Bulletin board" width="240">
-  <img src="docs/img/screen-profile.png" alt="Profile screen" width="240">
-</p>
-
-<p align="center"><sub>Home with favorites and recent updates · Bulletin board · Profile and settings</sub></p>
-
 ## Quick start
 
 ```bash
@@ -175,8 +165,7 @@ The Postman collection in `backend/postman/` covers permissions, ownership rules
 │   ├── postman/              API test collection and environment
 │   ├── docker-compose.yml
 │   └── .env.example
-├── assets/logo/              App logo
-└── docs/img/                 Screenshots
+└── assets/logo/              App logo
 ```
 
 ## Tools
@@ -188,6 +177,10 @@ The Postman collection in `backend/postman/` covers permissions, ownership rules
 | **IBM Cloudant** | Cloud NoSQL database that stores and organizes all app data |
 | **Postman** | Automated API tests |
 | **Google Drive** | Where the team organized and shared project files |
+
+## License
+
+Released under the [MIT License](LICENSE).
 
 ## Limitations
 
@@ -209,14 +202,7 @@ The Postman collection in `backend/postman/` covers permissions, ownership rules
 - [ ] Payment integration for bills
 - [ ] App Store release
 
-## Team
+## Author
 
-Built by the night shift team of the **HackaTruck MakerSpace**:
-
-| Name |
-|---|
-| Arthur Ilha Kirsch |
-| Eduardo Militz da Silva |
-| Evelyne Jean Louis |
-| Manoel Rodrigues Fonseca |
-| Pietro Chiapinotto Drachler |
+**Pietro Chiapinotto Drachler**. Engineering student at UFSM (Brazil).
+Built with the night shift team of the HackaTruck MakerSpace, 2026.
