@@ -103,7 +103,7 @@ Every route follows the same pattern: **HTTP IN → identify user → authorize 
 ## Quick start
 
 ```bash
-git clone <repository-url> pocketsindico
+git clone https://github.com/hackatruck-makerspace/pocketsindico.git
 cd pocketsindico/backend
 cp .env.example .env
 docker compose up -d
