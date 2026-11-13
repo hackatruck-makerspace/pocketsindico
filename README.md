@@ -90,6 +90,16 @@ Every route follows the same pattern: **HTTP IN → identify user → authorize 
 | **Photos as Base64 inside the document**, compressed by the app | No extra storage service; the server rejects documents over 1 MB with **413** |
 | **Idempotent setup tab** in Node-RED | Creates the database, indexes and demo data on start without overwriting anything |
 
+## Screenshots
+
+<p align="center">
+  <img src="docs/img/screen-home.png" alt="Home screen" width="240">
+  <img src="docs/img/screen-board.png" alt="Bulletin board" width="240">
+  <img src="docs/img/screen-profile.png" alt="Profile screen" width="240">
+</p>
+
+<p align="center"><sub>Home with favorites and recent updates · Bulletin board with announcements and listings · Profile with every feature</sub></p>
+
 ## Quick start
 
 ```bash
@@ -165,7 +175,8 @@ The Postman collection in `backend/postman/` covers permissions, ownership rules
 │   ├── postman/              API test collection and environment
 │   ├── docker-compose.yml
 │   └── .env.example
-└── assets/logo/              App logo
+├── assets/logo/              App logo
+└── docs/img/                 Screenshots
 ```
 
 ## Tools
