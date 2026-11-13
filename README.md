@@ -199,5 +199,5 @@ The Postman collection in `backend/postman/` covers permissions, ownership rules
 
 ## Authors
 
-**Arthur Ilha Kirsch**, **Eduardo Militz da Silva**, **Evelyne Jean Louis**, **Manoel Rodrigues Fonseca** and **Pietro Chiapinotto Drachler**, night shift team of the HackaTruck MakerSpace.
+**[Arthur Ilha Kirsch](https://github.com/arthurzxzx)**, **[Eduardo Militz da Silva](https://github.com/eduu1345)**, **[Evelyne Jean Louis](https://github.com/jeanlouisevelyne822-prog)**, **[Manoel Rodrigues Fonseca](https://github.com/ManoloFonseca)** and **Pietro Chiapinotto Drachler**, night shift team of the HackaTruck MakerSpace.
 Built as the final project of the HackaTruck MakerSpace (Oct 13 – Nov 13, 2026).
