@@ -196,10 +196,6 @@ The Postman collection in `backend/postman/` covers permissions, ownership rules
 - [x] Single Cloudant database with automatic setup
 - [x] Postman collection for every module
 - [x] Light, dark and system themes with a consistent visual identity
-- [ ] Real authentication
-- [ ] Push notifications from the server
-- [ ] Payment integration for bills
-- [ ] App Store release
 
 ## Authors
 
